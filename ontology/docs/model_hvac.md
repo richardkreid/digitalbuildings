@@ -180,23 +180,12 @@ This section outlines **umbrella types** for specific equipment.
 *   **Chiller(`CH`)**: a water-side device that chills (cools) water utilizing
     the refrigeration cycle and compressors. Can be either air-condensing or
     water-condensing. Must produced cool water.
-*   **Compartment Unit (`CU`)**: an airside device that delivers both outside
-    and return air but which does not source the outside air itself (i.e. it
-    lives downstream from some other device, like a DOAS, which pre-conditions
-    its outside air for it). This is typical in colder climates, or where
-    ventilation heat recovery is routinely practiced.
 *   **Cooling Tower (`CT`)**: a water-side device that cools water through the
     direct or indirect evaporation of water. Typically (but not always)
     associated with a chiller or water-source fan coil units. Must produce
     condensing water.
 *   **Dry Cooler (`DC`)**: a water-side device that cools water sensibly through
     air flow over its coil.
-*   **Dedicated Outside Air System Unit (`DOAS`)**: an air-side device that
-    typically provides conditioned air to other downstream distribution
-    equipment. They typically have heat recover between the supply and exhaust
-    air streams. They must have both supply and exhaust sides, and must provide
-    single pass air flow (i.e. they do not allow recirculation of air). TODO:
-    Define these in the ontology.
 *   **Duct Furnace (`DFR`)**: an air-side device that provides heat to the hot
     deck of a dual-duct system. Must provide hot air to a hot deck.
 *   **Duct Heater (`DH`)**: an air-side device that provides heat to an
